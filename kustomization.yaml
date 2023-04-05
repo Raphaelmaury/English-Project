@@ -3,5 +3,6 @@ secretGenerator:
   literals:
   - password=NoahRaphMDP
 resources:
+  - user.yaml
   - mysql-deployment.yaml
   - wordpress-deployment.yaml
